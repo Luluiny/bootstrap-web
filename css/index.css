@@ -1,0 +1,161 @@
+a {
+  color: inherit;
+}
+
+.header_header .row div {
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #808080;
+}
+
+.header_header .nav_header {
+  position: relative;
+}
+
+.header_header .nav_header img {
+  display: none;
+  position: absolute;
+  left: 45px;
+  top: 38px;
+}
+
+.header_header .nav_header a:hover img {
+  display: block;
+}
+
+#wjs_nav nav {
+  margin-bottom: 0;
+}
+
+#wjs_nav .navbar-brand {
+  font-size: 70px;
+  padding-top: 7px;
+}
+
+#wjs_nav .navbar-brand .wjsfont-logo {
+  color: red;
+}
+
+#wjs_nav a {
+  height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+}
+
+#wjs_nav a:hover,
+#wjs_nav a:focus {
+  border-bottom: 1px solid red;
+}
+
+.wjs_slides img {
+  width: 100%;
+}
+
+.exchange {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.exchange .row > div {
+  margin-bottom: 20px;
+}
+
+.exchange a .media-left > span {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.exchange a:hover {
+  color: red;
+}
+
+.wjs_wait {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 30px 0;
+}
+
+.wjs_wait .wjsw_left a {
+  color: red;
+}
+
+.wjs_buy .row > div {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.wjs_buy .cart_defalut {
+  position: relative;
+  display: block;
+  padding-right: 80px;
+  background-color: #ccc;
+  -webkit-box-shadow: 0px 0px 9px 5px #999;
+          box-shadow: 0px 0px 9px 5px #999;
+}
+
+.wjs_buy .cart_defalut .card_content {
+  border-right: 1px dashed #000;
+  padding: 0 6px;
+}
+
+.wjs_buy .cart_defalut .card_content p {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.wjs_buy .cart_defalut .card_content .card_detail {
+  clear: both;
+  font-size: 14px;
+}
+
+.wjs_buy .cart_defalut .card_content .card_detail .detail_r {
+  text-align: right;
+}
+
+.wjs_buy .cart_defalut .card_content .card_detail .detail_r div {
+  padding: 5px 0;
+}
+
+.wjs_buy .cart_defalut .card_content .card_detail .detail_l div {
+  padding: 5px 0;
+}
+
+.wjs_buy .cart_defalut .card_rate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 100%;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.wjs_buy .cart_defalut::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+  right: 70px;
+}
+
+.wjs_buy .cart_defalut::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -10px;
+  right: 70px;
+}
+
+.wjs_buy .tab-content .tab-pane .card_red {
+  background-color: red;
+  color: #FFf;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,159 @@
+$color:#808080;
+a {
+    color: inherit;
+}
+
+.header_header {
+    .row div {
+       height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: $color;
+    }
+    .nav_header{
+        position: relative;
+        img {
+            display: none;
+            position: absolute;
+            left: 45px;
+            top: 38px;
+        }
+        a:hover img {
+            display: block;
+        }
+    }
+}
+
+// 导航
+#wjs_nav {
+    nav {
+        margin-bottom: 0;
+    }
+    .navbar-brand {
+        font-size: 70px;
+        padding-top: 7px;
+        .wjsfont-logo {
+            color: red;
+        }
+    }
+    a {
+        height: 80px;
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 80px;
+    }
+    a:hover,
+    a:focus {
+        border-bottom: 1px solid red;
+    }
+}
+
+//轮播图
+.wjs_slides {
+    img {
+        width: 100%;
+    }
+}
+
+//媒体对象 交易支付
+.exchange {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    .row>div {
+        margin-bottom: 20px;
+    }
+    a {
+        .media-left>span {
+            font-size: 40px; //文字图片水平对齐 vertical-align
+            vertical-align: middle; //margin-top: 10px;
+        }
+    }
+    a:hover {
+        color: red;
+    }
+}
+
+//wait
+.wjs_wait {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 30px 0;
+    .wjsw_left {
+        a {
+            color: red;
+        }
+    }
+}
+
+//tab切换
+.wjs_buy {
+    .row>div {
+            margin-bottom: 20px;
+            margin-top: 15px;
+    }
+    .cart_defalut{
+        position: relative;
+        display: block;
+        padding-right: 80px;
+        background-color:#ccc;
+        box-shadow: 0px 0px 9px 5px #999;
+       .card_content{
+           border-right: 1px dashed #000;
+           padding: 0 6px;
+        p{
+            text-align: center;
+            padding: 15px 0;
+
+        }
+        .card_detail{
+           // height: 100%;
+           //border: 1px solid #fff;
+           clear:both;
+           font-size: 14px;
+           .detail_r{
+               text-align: right;
+               
+           }
+           .detail_r div{
+            padding: 5px 0;
+           }
+           .detail_l div{
+            padding: 5px 0;
+           }
+        }
+       }
+       .card_rate{
+           position: absolute;
+           top: 0;
+           right: 0;
+           width: 80px;
+           height: 100%;
+           padding-top: 55px;
+           text-align: center;
+       }
+       &::before{
+           content:"";
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: #fff;
+           position: absolute;
+           top: -10px;
+           right: 70px;
+       }
+       &::after{
+           content:"";
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: #fff;
+           position: absolute;
+           bottom: -10px;
+           right: 70px;
+       }
+    }
+}
+.wjs_buy .tab-content .tab-pane .card_red{
+    background-color: red;
+    color: #FFf;
+}
